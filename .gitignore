@@ -2,3 +2,8 @@
 /project/target/
 /target/
 /target/scala-2.12/classes/
+*.class
+*.log
+.DS_Store
+vcs.xml
+runConfigurations.xml
