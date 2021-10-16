@@ -8,7 +8,8 @@ object sparkJoinTypes extends App {
 
   val runLocal = args(0).equals("l")
   val sparkConfig = new SparkConf()
-  Logger.getLogger("org").setLevel(Level.ERROR)
+  //Logger.getLogger("org").setLevel(Level.ERROR)
+  val logger = Logger.getLogger(getClass.getName)
 
   val spark = if(runLocal) {
     sparkConfig.set("spark.master.bindAddress","localhost")

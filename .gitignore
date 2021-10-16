@@ -7,3 +7,5 @@
 .DS_Store
 vcs.xml
 runConfigurations.xml
+*.cache
+*.iml
